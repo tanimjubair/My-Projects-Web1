@@ -1,0 +1,57 @@
+/* flex-wrap: can also be nowrap and wrap-reverse; */
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: start;
+    background-color: rgb(217, 129, 94);
+    height: 400px ;
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+}
+.flex-container > div {
+    background-color:#0479bc;
+    width: 100px;
+
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.flex-container > div {
+    background-color: rgb(112, 18, 18)162, 0, 255;
+    width: 95px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+#div1 {
+    background-color: #0488bc;
+    order: -1;
+}
+
+#div2 {
+    background-color: #bcb604;
+    align-self: flex-end;
+}
+
+#div3 {
+    background-color: #04bc1c;
+    align-self:center
+}
+
+#div4 {
+    background-color: #bc0491;
+    flex-grow: 4;
+}
+
+#div5 {
+    background-color: #bc0404;
+    flex-shrink: 5;
+}

@@ -1,0 +1,18 @@
+.divOne {
+    border: solid 5px blue;
+    background-color:aquamarine;
+    text-align: center;
+}
+
+.divOne {
+    width:300px;
+    height:200px;
+    background-color:red;
+
+}
+
+.divTwo {
+    width:100px;
+    height:100px;
+    background-color:yellow;
+}
